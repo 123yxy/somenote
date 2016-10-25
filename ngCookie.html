@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="angular.js"></script>
+    <script src="angular-cookies.js"></script>
+    <script>
+        var app=angular.module("app",["ngCookies"]).controller("jgr",function($scope,$cookieStore){
+            $cookieStore.put("jgr","my name");
+            $scope.data=$cookieStore.get("jgr")
+        })
+    </script>
+</head>
+<body ng-app="app">
+<div ng-controller="jgr">
+    {{data}}
+</div>
+</body>
+</html>

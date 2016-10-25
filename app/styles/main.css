@@ -1,0 +1,25 @@
+body{background:#f3f7fa;}
+#header{height:59.5px;background:#a7212a;}
+#header img{float:left;width:9px;height:15px;margin:29.5px 0 0 11px;}
+.dl{float:left;color:white;font-size:12px;margin:31.5px 0 0 5px;}
+.zq {float:left;color:white;font-size:22px;line-height:59.5px;font-weight:bold;margin-left:100px;}
+#touzi{height:31.5px;line-height:31.5px;text-align: center;color:#fc8716;font-family: "微软雅黑";}
+#touzi img{width:17px;height:12.5px;}
+.line{height:0.5px;background:#e4e4e4;}
+/*#input_box{height:172.5px;}*/
+
+#shuru{width:100%;height:42.5px;display:-webkit-box;-webkit-box-orient:horizontal;background:#ffffff;margin-top:50px;}
+#shuru>.phone{width:51px;height:42.5px;font-size:12.5px;line-height:42.5px;	margin-left:11px;margin-right:23px;font-family: "微软雅黑";}
+#shuru>.phone_{-webkit-box-flex:1;}
+.phone_ .input_{display:block;width:100%;outline:none;height:42.5px;border:0;color:#dbdce0;}
+
+.input_ljzc{width:74px;height:28px;line-height:28px;font-size:12px;color:white;text-align: center;background:#2caa9e;border-radius:2.5px;margin-right:14px;margin-top:7.5px;}
+.phone_ .input_my{display:block;width:100%;outline:none;height:40px;border:0;color:#dbdce0;}
+#yd{height:12px;line-height:12px;margin-top:35px;color:#5c5c5c;font-size:12px;}
+#yd input{width:10px;height:10px;float:left;margin-left:11.5px;margin-top:-1px;}
+#yd a{color:#2caa9e;margin-left:5px;}
+#ljzc {width: 100%;height: 28.5px;margin-top:45px;}
+#ljzc .text {height: 28.5px;line-height: 28.5px;color: #fff;font-size: 13px;margin: 0 11px;background: #fc8715;text-align: center;border-radius: 2.5px;}
+.ym{height:12px;line-height:12px;font-size:12px;text-align: center;margin-top:17.5px;}
+.ym a{color:#dbdbdb;}
+.ym span{color:#a52228;}
