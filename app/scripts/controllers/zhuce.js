@@ -6,7 +6,9 @@ angular.module('cookieApp')
         method:"POST",
         data:$scope.updata
       }).success(function(e){
+
         $cookies.put('username',$scope.updata.username);
+        alert("ok!")
 				//debugger
         $state.go("denglu")
       }).error(function(){

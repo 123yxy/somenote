@@ -1,4 +1,4 @@
-<div>
+<!--<div>
 <div id="header">
   <img src="images/xb_1.jpg" alt="" />
   <a href="views/denglu.html" class="dl">登录</a>
@@ -12,17 +12,44 @@
   <p class="line"></p>
 
 </div>
-<!--<p class="line"></p>-->
+&lt;!&ndash;<p class="line"></p>&ndash;&gt;
 <div id='shuru'>
   <div class='phone' >密码</div>
   <div class='phone_' ><input type="password" class="input_" ng-model="updata.password"/></div>
 </div>
 
 
-<!--<div id="yd">
+&lt;!&ndash;<div id="yd">
   <input type="checkbox" /><label>已阅读并同意<a href=""></a></label>
-</div>-->
+</div>&ndash;&gt;
 
 <div id="ljzc"><p class="text" ng-click="zhuce()">立即注册</p></div>
 <div class="ym"><a href="">已有账号，<span ui-sref="denglu">马上登陆</span></a></div>
+</div>-->
+
+
+
+<div id="tu">
+  <div id="logo">
+    <div><img src="images/xb.png" alt=""></div>
+    <p>登陆</p>
+  </div>
+  <div id="touxiang">
+    <div><img src="images/tx.png" alt=""></div>
+  </div>
+  <div id="input">
+    <div id="input-f">
+      <input type="text" value="username" id="input-ff" ng-model="updata.username">
+    </div>
+    <div id="input-t">
+      <input type="password" value="password" id="input-tt" ng-model="updata.password">
+    </div>
+  </div>
+  <div id="denglu">
+    <a href="" ng-click="zhuce()">注册</a>
+  </div>
+  <div id="but">
+    <span id="zhuce"><a href="javasript:;" ui-sref="denglu">有账号 去登陆</a></span>
+    <span><a href="javasript:;">忘记密码？</a></span>
+  </div>
 </div>

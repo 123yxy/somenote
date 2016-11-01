@@ -30,6 +30,18 @@ angular
       url:'/zhuce',
       templateUrl:'views/zhuce.html',
       controller:'zhuce'
+    }).state('riji',{
+      url:'/riji',
+      templateUrl:'views/riji.html',
+      controller:'riji'
+    }).state('zx',{
+      url:'/zx?id&title&content',
+      templateUrl:'views/zx.html',
+      controller:'zx'
+    }).state('add',{
+      url:'/add',
+      templateUrl:'views/add.html',
+      controller:'add'
     })
     $urlRouterProvider.when('','/denglu')
   }])
